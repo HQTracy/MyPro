@@ -1,3 +1,4 @@
 rootProject.name='MyProject'
 include ':app'
 include ':trxjava'
+include ':common'
