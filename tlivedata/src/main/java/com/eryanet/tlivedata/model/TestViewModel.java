@@ -1,4 +1,4 @@
-package com.eryanet.tlivedata;
+package com.eryanet.tlivedata.model;
 
 import androidx.lifecycle.MutableLiveData;
 import androidx.lifecycle.ViewModel;

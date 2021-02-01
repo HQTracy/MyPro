@@ -1,0 +1,11 @@
+while true
+do
+count=`ps |grep eryalinkmng|grep -v grep`
+  if [ "$?" != "0" ]
+  then
+	echo "LinkCore is not alived, restart it..."
+	export LD_LIBRARY_PATH=/data/local/tmp/eryalink/lib:$LD_LIBRARY_PATH
+	/data/local/tmp/eryalink/bin/eryalinkmng &
+  fi
+sleep 5
+done

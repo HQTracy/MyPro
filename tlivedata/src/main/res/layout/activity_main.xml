@@ -31,4 +31,12 @@
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintTop_toBottomOf="@id/btn_setvalue" />
 
+    <Button
+        android:id="@+id/btn_params"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="params"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/btn_postvalue" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
